@@ -39,8 +39,8 @@ print(x.grad)
 x = torch.tensor(7.8, requires_grad=False)
 y = torch.tensor(0.0, requires_grad=False)
 
-w = torch.tensor(1.0, requires_grad=True)
-b = torch.tensor(0.0, requires_grad=True)
+w = torch.tensor(1.0, requires_grad=True) #Weight
+b = torch.tensor(0.0, requires_grad=True) #Bias
 
 #Forward Pass
 z = w*x + b
@@ -50,7 +50,7 @@ y_pred = torch.sigmoid(z)
 print("Y_pred: ", y_pred)
 
 
-
+# Loss calculation
 loss = F.binary_cross_entropy(y_pred, y)
 print("Loss: ", loss)
 
@@ -58,3 +58,5 @@ print("Loss: ", loss)
 loss.backward()
 print("dL/dw: ", w.grad)
 print("dL/db: ", b.grad)
+
+## Evaluation, though important, is out of scope right now.
