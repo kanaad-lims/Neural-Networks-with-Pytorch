@@ -1,5 +1,4 @@
 import torch
-import torch.nn.functional as F
 print(torch.__version__)
 
 
@@ -60,3 +59,4 @@ print("dL/dw: ", w.grad)
 print("dL/db: ", b.grad)
 
 ## Evaluation, though important, is out of scope right now.
+
