@@ -1,4 +1,5 @@
-## Training Pipeline in Pytorch. 
+## Learning how a typical training pipeline for DL projects without using Torch NN modules is the target here.
+## For this simple neural network, we get an accuracy of ~60% (which is bad) but getting optimal accuracy is not the scope of this code.
 
 import numpy as np
 import pandas as pd
@@ -111,4 +112,4 @@ with torch.no_grad():
         y_pred = (y_pred > 0.65).float()
 
         accuracy = (y_pred == y_test_tensor).float().mean()
-        print(f"Test Accruacy: {accuracy.item()}")    
+        print(f"Test Accruacy: {accuracy.item()}")
