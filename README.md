@@ -1,5 +1,5 @@
-## Building Neural Networks with PyTorch.
-- Using Pytorch for building simple to complex NNs including Transfer Learning.
+## Neural Networks with PyTorch.
+- Using Pytorch for building simple to complex NNs including ANNs, CNNs, LSTMs and Transfer Learning.
 
 1. pytorch.py - Consists all the basic and important PyTorch functions, essential to begin with.
 2. pytorch-autograd.py - PyTorch's state of the art differentiation feature (gradient calculations) and it's implementation.
