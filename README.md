@@ -1,5 +1,5 @@
 ## Neural Networks with PyTorch.
-- Using Pytorch for building simple to complex NNs including ANNs, RNNs, CNNs, LSTMs and Transfer Learning.
+- Using Pytorch to build simple to complex NNs including ANNs, RNNs, CNNs, LSTMs and Transfer Learning.
 - We will also be optimizing the neural networks using hyperparameter tuning using `Optuna`.
 
 1. pytorch.py - Consists all the basic and important PyTorch functions, essential to begin with.
