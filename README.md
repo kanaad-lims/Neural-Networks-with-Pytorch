@@ -8,3 +8,4 @@
 4. pytorch-NNmodule.py - Uses the PyTorch's Neural Network module `nn.Module` along with loss function and optimizers `torch.optim...` and imporving the previously written NN in `pytorch-Tpipeline.py`.
 5. pytorch-allData - Used the Dataset and Dataloader classes in pytorch to demonstrate how data can be divided and arranged into different batches using a sample dataset `from sklearn.datasets import make_classification`.
 6. pytorch-ANN.py - Built an ANN from scratch using pytorch and trained on a subset of 6000 images from Fashion MNIST dataset for multiclass classification. The dataset is a .csv file uploaded in the repo under the name of `fmnist_small.csv`.
+7. pytorch-ANN-GPU.py - Modified the already existing ANN to be able to run using Cuda and Nvidia Tesla P100 GPU, using Kaggle (since my integrated gpu is not as powerful as this). 
